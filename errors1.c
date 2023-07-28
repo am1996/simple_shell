@@ -1,4 +1,5 @@
 #include "shell.h"
+#include <limits.h>
 
 /**
  * _erratoi - converts a string to an integer
@@ -48,8 +49,8 @@ void print_error(info_t *info, char *estr)
 
 /**
  * print_d - function prints a decimal (integer) number (base 10)
- * input: the input
- * fd: the filedescriptor to write to
+ * @input: the input
+ * @fd: the filedescriptor to write to
  * Return: number of characters printed
  **/
 
@@ -87,9 +88,9 @@ int print_d(int input, int fd)
 
 /**
  * convert_number - converter function, a clone of itoa
- * num: number
- * base: base
- * flags: argument flags
+ * @num: number
+ * @base: base
+ * @flags: argument flags
  * Return: string
  **/
 
