@@ -9,8 +9,8 @@
 
 int _myenv(info_t *info)
 {
-	print_list_str(info->env);
-	return (0);
+  print_list_str(info->env);
+  return (0);
 }
 
 /**
@@ -56,7 +56,7 @@ int _mysetenv(info_t *info)
 
 /**
  * _myunsetenv - Remove an environment variable
- * @info: Structure containing potential arguments. 
+ * @info: Structure containing potential arguments.
  * Used to maintain constant function prototype.
  * Return: Always 0
  **/
@@ -78,7 +78,7 @@ int _myunsetenv(info_t *info)
 
 /**
  * populate_env_list - populates env linked list
- * @info: Structure containing potential arguments. 
+ * @info: Structure containing potential arguments.
  * Used to maintain constant function prototype.
  * Return: Always 0
  **/
